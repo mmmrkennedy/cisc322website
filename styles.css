@@ -1,3 +1,28 @@
+body  {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #151515; /* Dark background color */
+    color: #c0bfbf; /* Dark text color */
+}
+
 h1.centered {
     text-align: center;
+}
+
+
+/* Overall Content Formating */
+.content-container-top,
+.content-container {
+    text-align: left;
+    margin: 50px 0 0 20px;
+    max-width: fit-content;
+    position: relative;
+    inline-size: auto;
+    overflow-wrap: break-word;
+}
+
+.content-container-top {
+    margin-top: 100px;
 }
